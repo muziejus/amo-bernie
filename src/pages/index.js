@@ -7,9 +7,8 @@ const IndexPage = () => (
  <Layout>
     <SEO title="Home" />
     <div 
-      className="p-5 bg-abpink-100 opacity-90" 
     >
-      <h1 className="text-2xl m-0">Welcome!</h1>
+      <h2 className="text-2xl m-0">Welcome!</h2>
       <p className="text-l mb-0">Buttons, sweaters, t-shirts, canvas totes, and stickers to come soon. In the meantime, follow us on Twitter to stay informed.</p>
     </div>
   </Layout>

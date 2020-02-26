@@ -30,7 +30,9 @@ const Layout = ({ children }) => {
       >
         <div className="md:w-1/2">
           <Header siteTitle={data.site.siteMetadata.title} />
-          <main>{children}</main>
+          <main
+            className="p-5 bg-abpink-100 opacity-90" 
+          >{children}</main>
         </div>
       </div>
     </>
