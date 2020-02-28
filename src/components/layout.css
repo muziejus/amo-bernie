@@ -609,3 +609,11 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+main a {
+  @apply .font-bold .text-abgreen-500;
+}
+
+main a:hover, a:active {
+  @apply .text-abgreen-200;
+}
