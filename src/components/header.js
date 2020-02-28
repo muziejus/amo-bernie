@@ -24,8 +24,8 @@ const Header = ({ siteTitle }) => {
         </Link>
       </h1>
     </div>
-    <div class="w-1/4">&nbsp;</div>
-    <div className={`${ isExpanded ? `block` : `hidden` } w-full block flex-grow lg:flex lg:items-center lg:w-auto`}>
+    <div class="w-1/4 lg:flex-grow">&nbsp;</div>
+    <div className={`${ isExpanded ? `block` : `hidden` } w-full block lg:flex lg:items-center lg:w-auto`}>
       <div className="text-sm lg:flex-grow">
         <Link to="/shop/" className="block mt-4 lg:inline-block lg:mt-0 text-abgreen-500 hover:text-abgreen-200 mr-4">
           Shop
