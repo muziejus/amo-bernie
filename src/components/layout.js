@@ -25,11 +25,11 @@ const Layout = ({ children }) => {
 
   return (
     <>
+      <Header siteTitle={data.site.siteMetadata.title} />
       <div
         className="flex flex-col justify-center items-center h-screen p-4 md:p-0"
       >
         <div className="md:w-1/2">
-          <Header siteTitle={data.site.siteMetadata.title} />
           <main
             className="p-5 bg-abpink-100 opacity-90" 
           >{children}</main>
