@@ -7,8 +7,9 @@ const IndexPage = () => (
  <Layout>
     <SEO title="Home" />
     <p className="text-l">Buttons, sweaters, t-shirts, canvas totes, and stickers to come soon. Follow us on <a href="http://twitter.com/amobernieus">Twitter</a> or <a href="http://instagram.com/amobernieus">Instagram</a> to stay informed. Or, sign up below.</p>
-    <form name="emailSignUp" className="mb-0 w-full" method="post" data-netlify-honeypot="bot-field" data-netlify="true">
+    <form name="emailSignUp" className="mb-0 w-full" method="post" data-netlify-honeypot="bot-field" data-netlify="true" action="/thanks">
       <input type="hidden" name="form-name" value="emailSignUp" />
+      <input type="hidden" name="bot-field" />
       <div className="flex items-center border-b border-b-2 border-abgreen-500 py-2 w-full">
         <label className="flex-grow" for="email"> 
           <span className="sr-only">E-mail</span>
