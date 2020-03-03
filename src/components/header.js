@@ -34,7 +34,7 @@ const Header = ({ siteTitle }) => {
           About
         </Link>
         <Link to="/bernie/" className="block mt-4 lg:inline-block lg:mt-0 text-abgreen-500 hover:text-abgreen-200 mr-4">
-          عمہ برنی
+          عمو برني
         </Link>
       </div>
     </div> 
