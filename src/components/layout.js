@@ -24,18 +24,18 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <div
-        className="flex flex-col justify-center items-center h-screen p-4 md:p-0"
-      >
-        <div className="md:w-1/2">
-          <main
-            className="p-5 bg-abpink-100 opacity-90" 
-          >{children}</main>
-        </div>
+    <div className="flex flex-col h-screen">
+      <div className="h-16">
+        <Header siteTitle={data.site.siteMetadata.title} />
       </div>
-    </>
+      <div
+        className="flex-grow flex flex-col justify-center items-center p-4 md:p-0"
+      >
+        <main
+          className="md:w-1/2 p-5 bg-abpink-100 opacity-90" 
+        >{children}</main>
+      </div>
+    </div>
   )
 }
 

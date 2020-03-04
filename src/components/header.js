@@ -7,7 +7,7 @@ const Header = ({ siteTitle }) => {
   
   return (
   <header
-    className="flex items-center justify-between flex-wrap p-4 bg-abpink-500 absolute top-0 left-0 w-screen"
+    className="flex items-center justify-between flex-wrap p-4 bg-abpink-500 absolute top-0 left-0 w-screen z-50"
   >
    <div className="block w-1/4 lg:hidden">
       <button onClick={() => toggleExpansion(!isExpanded)} className="flex items-center px-3 py-2 text-abgreen-500 hover:text-abgreen-200">
