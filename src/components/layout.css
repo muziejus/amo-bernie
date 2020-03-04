@@ -610,6 +610,11 @@ pre tt:after {
   }
 }
 
+main {
+  max-height: 75vh;
+  @apply .overflow-auto;
+}
+
 main a {
   @apply .font-bold .text-abgreen-500;
 }
