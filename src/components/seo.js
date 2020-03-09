@@ -68,7 +68,7 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
         {
-          name: `og:image`,
+          property: `og:image`,
           content: "https://i.imgur.com/mdhMJXh.jpg",
         }
       ].concat(meta)}
